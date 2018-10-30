@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mateusz/Documents/Semester V/MOwNiTStudyCourse2018/Lab2/main.c
+stdio.h
+-
+sys/time.h
+-
+gsl/gsl_blas.h
+-
+

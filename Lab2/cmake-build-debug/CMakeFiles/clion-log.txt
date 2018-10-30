@@ -1,0 +1,6 @@
+/opt/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/mateusz/Documents/Semester V/MOwNiTStudyCourse2018/Lab2"
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Found GSL: /usr/include (found version "2.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mateusz/Documents/Semester V/MOwNiTStudyCourse2018/Lab2/cmake-build-debug

@@ -1,0 +1,18 @@
+using CSV
+using Plots
+using DataFrames
+using Statistics
+
+filename="/home/mateusz/Documents/Semester V/MOwNiTStudyCourse2018/Lab2/cmake-build-debug/data3.csv"
+data=CSV.read(filename, delim=";")
+
+bymean=by(data, 2, df -> mean(df[3]))
+byvar=by(data, 2, df -> var(df[3]))
+bytype=by(data, 2, df -> mean(df[1]))
+data=join(byvar, bymean, on = :rozmiar)
+data=join(data, bytype, on = :rozmiar)
+show(data)
+
+scatter(legend=false, title=["$i" for j=1:1, i=["wektor", "macierz"]],
+xlabel="rozmiar", ylabel="sredni czas", data[1], data[2], group=data[4],
+yerr=data[3], colour = [:red :blue], layout=2)

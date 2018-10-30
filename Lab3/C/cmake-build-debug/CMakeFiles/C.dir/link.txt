@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/C.dir/main.c.o  -o C /usr/lib/x86_64-linux-gnu/libgsl.so /usr/lib/x86_64-linux-gnu/libgslcblas.so 

@@ -1,0 +1,3 @@
+/home/mateusz/Documents/Semester V/MOwNiTStudyCourse2018/Lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mateusz/Documents/Semester V/MOwNiTStudyCourse2018/Lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mateusz/Documents/Semester V/MOwNiTStudyCourse2018/Lab1/cmake-build-debug/CMakeFiles/log.dir
